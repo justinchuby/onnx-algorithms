@@ -18,8 +18,8 @@ NOTE: Essentially compute the liveness of the values.
 Remove all nodes marked as "unused"
 ```
 
-NOTE: But this is exactly the same idea as "remove one". Can we do better?
-NOTE: We can use this to fold away if branches too.
-NOTE: DCE only removes variables; removing unnecessary control flow is 
+- NOTE: But this is exactly the same idea as "remove one". Can we do better?
+- NOTE: We can use this to fold away if branches too.
+- NOTE: DCE only removes variables; removing unnecessary control flow is 
 called "flow optimization" (https://www.inf.ed.ac.uk/teaching/courses/ct/19-20/slides/llvm-4-deadcode.pdf)
-QUESTION: Can we retain the used nodes instead?
+- QUESTION: Can we retain the used nodes instead?
