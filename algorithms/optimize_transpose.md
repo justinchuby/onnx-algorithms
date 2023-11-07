@@ -1,0 +1,1 @@
+Collapse consecutive transposes / matmul.
