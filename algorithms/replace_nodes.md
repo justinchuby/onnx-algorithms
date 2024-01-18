@@ -16,6 +16,9 @@ Instead, we
 
 ## Excalidraw graph
 
+<details>
+  <summary>Show</summary>
+
 ```excalidraw
 {
   "type": "excalidraw",
@@ -1373,3 +1376,5 @@ Instead, we
   "files": {}
 }
 ```
+
+</details>
