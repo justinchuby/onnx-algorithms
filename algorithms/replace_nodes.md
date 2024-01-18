@@ -12,6 +12,13 @@ Instead, we
 2. Run DCE on the set of nodes {n1, n2, n3}.
 ```
 
+## Invariants
+
+1. Ensures no unused values among the old nodes
+2. Ensures all graph outputs are connectted to grpah inputs
+3. Ensures all output values of the new subgraph are used (?)
+4. Ensures all computed attributes are updated for the subgraph and the main graph
+
 ![image](https://github.com/justinchuby/onnx-algorithms/assets/11205048/f68eceb3-788a-48a8-9081-195de966d2d3)
 
 ## Excalidraw graph
